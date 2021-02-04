@@ -177,6 +177,8 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-between;
 }
 
 .description{
@@ -216,6 +218,9 @@ button:hover{
   }
   .hidden-on-sm{
     display: none;
+  }
+  .sidy-by-side{
+    flex-direction: column;
   }
 }
 
