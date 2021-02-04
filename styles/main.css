@@ -206,6 +206,13 @@ button:hover{
   cursor: pointer;
 }
 
+.item{
+  display: flex;
+}
+.item p{
+  margin: 0;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -220,6 +227,9 @@ button:hover{
     display: none;
   }
   .sidy-by-side{
+    flex-direction: column;
+  }
+  .item{
     flex-direction: column;
   }
 }
